@@ -26,3 +26,29 @@ public class Search_an_Element_in_an_array
         System.out.println(x);
     }
 }
+
+
+
+
+
+
+
+
+/*
+import java.util.*;
+
+public class a_searching_elelment_in_an_array
+{
+    public static int search(int arr[], int N, int X)
+    {
+        for (int i = 0; i < N; i++)
+        {
+            if (arr[i] == X)
+            {
+                return i; // Return the index of X if found
+            }
+        }
+        return -1; // Return -1 if X is not found in the array
+    }
+}
+*/
